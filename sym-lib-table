@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "password_manager_symbols")(type "KiCad")(uri "${KIPRJMOD}/password_manager_symbols.kicad_sym")(options "")(descr ""))
+)
