@@ -1,499 +1,1298 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 4e5af547-d910-4cf3-afa4-7baa9375f6e3)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Switch:SW_Push_45deg" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "SW" (at 3.048 1.016 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "SW_Push_45deg" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "switch normally-open pushbutton push-button" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Push button switch, normally open, two pins, 45° tilted" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SW_Push_45deg_0_1"
-        (circle (center -1.1684 1.1684) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.508 2.54)
-            (xy 2.54 -0.508)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 1.016)
-            (xy 2.032 2.032)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 2.54)
-            (xy -1.524 1.524)
-            (xy -1.524 1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.524 -1.524)
-            (xy 2.54 -2.54)
-            (xy 2.54 -2.54)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 1.143 -1.1938) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -2.54 2.54 0) (length 0)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -2.54 180) (length 0)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (symbol (lib_id "Switch:SW_Push_45deg") (at 86.995 95.885 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0100cc77-1d58-406b-b066-fe99c8ba5c08)
-    (property "Reference" "SW2_1" (at 90.17 94.615 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SW_1" (at 90.17 97.155 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (at 86.995 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 86.995 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b6ba48c4-556c-4cc0-97c3-6e506280e2f7))
-    (pin "2" (uuid e0da25a6-5664-4328-b2c4-f41254a0eea4))
-    (instances
-      (project "password_manager"
-        (path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
-          (reference "SW2_1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push_45deg") (at 103.505 95.885 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 052bb334-1b17-4da3-81cf-7a537260e884)
-    (property "Reference" "SW2_2" (at 106.68 94.615 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SW_1" (at 106.68 97.155 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (at 103.505 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 103.505 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ad7371a5-7a68-4c7e-9252-cc96d1032819))
-    (pin "2" (uuid 4fdda569-f0bb-4564-ad42-534e3d1b7697))
-    (instances
-      (project "password_manager"
-        (path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
-          (reference "SW2_2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push_45deg") (at 86.995 107.95 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0e0048a0-748e-4d45-a01b-fba960913908)
-    (property "Reference" "SW3_1" (at 90.17 106.68 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SW_1" (at 90.17 109.22 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (at 86.995 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 86.995 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 234ac89e-5f33-41ce-91d6-09ba0d2f20e2))
-    (pin "2" (uuid c10c2be3-96f5-4efe-9e8b-abf7530c46ec))
-    (instances
-      (project "password_manager"
-        (path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
-          (reference "SW3_1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push_45deg") (at 134.62 118.11 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 10a1aa0f-5b3b-4f7b-978c-4f8733f47482)
-    (property "Reference" "SW4_4" (at 138.43 116.84 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SW_1" (at 138.43 119.38 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (at 134.62 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 134.62 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e7f3b77d-f969-4420-9fff-023eb98dfd9c))
-    (pin "2" (uuid 0e35749d-e0a7-49c8-895c-be81e949c04d))
-    (instances
-      (project "password_manager"
-        (path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
-          (reference "SW4_4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push_45deg") (at 102.87 107.315 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 17ddd2e6-63c1-4c9e-a780-b9a1ad6ccf50)
-    (property "Reference" "SW3_2" (at 106.045 106.045 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SW_1" (at 106.045 108.585 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (at 102.87 107.315 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 102.87 107.315 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 806f5fa7-374c-494d-9929-4b8fab0877d3))
-    (pin "2" (uuid aa631d55-da2d-4d48-94fd-5a653891d6b9))
-    (instances
-      (project "password_manager"
-        (path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
-          (reference "SW3_2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push_45deg") (at 118.11 95.885 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 24cd1964-60a2-4388-8c64-c252f177748f)
-    (property "Reference" "SW2_3" (at 121.285 94.615 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SW_1" (at 121.285 97.155 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (at 118.11 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 118.11 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 02e31a92-dbc0-4d50-a7b8-f07aeb3c5a80))
-    (pin "2" (uuid 651b72ef-4132-4133-90a2-c9cf9d92ab52))
-    (instances
-      (project "password_manager"
-        (path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
-          (reference "SW2_3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push_45deg") (at 135.255 106.045 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3ae4572c-b27c-4ab4-84b3-9b7eb825cc3c)
-    (property "Reference" "SW3_4" (at 138.43 104.775 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SW_1" (at 138.43 107.315 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (at 135.255 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 135.255 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 53afc0a2-59b6-4e88-8c44-7d8db1e3c8a5))
-    (pin "2" (uuid 6732ecc5-cc02-409b-ac8e-44e1123963ee))
-    (instances
-      (project "password_manager"
-        (path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
-          (reference "SW3_4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push_45deg") (at 86.36 119.38 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 612b749c-d689-43bc-b89a-3ad673cdbbb1)
-    (property "Reference" "SW4_1" (at 90.17 118.11 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SW_1" (at 90.17 120.65 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (at 86.36 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 86.36 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cb778517-260c-4228-8d47-ff05924987e5))
-    (pin "2" (uuid b8de5d5f-2802-42bb-8ad7-b61c27446176))
-    (instances
-      (project "password_manager"
-        (path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
-          (reference "SW4_1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push_45deg") (at 87.63 86.36 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 63fa0750-8989-487e-a9e6-15462eb0bafe)
-    (property "Reference" "SW1_1" (at 91.44 85.09 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SW_1" (at 91.44 87.63 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (at 87.63 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 87.63 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5f2cd2ad-48f6-4bc1-afa0-f253fe167096))
-    (pin "2" (uuid f508d588-6d0c-4f13-bcb0-56831e1b4605))
-    (instances
-      (project "password_manager"
-        (path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
-          (reference "SW1_1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push_45deg") (at 118.745 86.36 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6c22e4ba-19cd-4cc6-b9fe-c6c6b74d9a3b)
-    (property "Reference" "SW1_3" (at 121.92 85.09 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SW_3" (at 121.92 87.63 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (at 118.745 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 118.745 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 858c31a2-dbc5-42fe-a560-586cf5f519e6))
-    (pin "2" (uuid 461cd838-2155-4c4b-90a5-ba60460e45d2))
-    (instances
-      (project "password_manager"
-        (path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
-          (reference "SW1_3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push_45deg") (at 102.235 118.745 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 73ef9242-3409-4737-b1cd-cf58c63f5a67)
-    (property "Reference" "SW4_2" (at 106.045 117.475 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SW_1" (at 106.045 120.015 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (at 102.235 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 102.235 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0e056114-7c74-4693-9324-6d67448bbe88))
-    (pin "2" (uuid 36a40152-9c76-40b2-b230-405737ff30ab))
-    (instances
-      (project "password_manager"
-        (path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
-          (reference "SW4_2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push_45deg") (at 135.255 86.36 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a49f721f-84d4-4499-88d9-91caacc0a820)
-    (property "Reference" "SW1_4" (at 138.43 85.09 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SW_4" (at 138.43 87.63 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (at 135.255 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 135.255 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9c1f5b74-ddd0-45ad-939a-42b056015bd0))
-    (pin "2" (uuid 327e44da-24af-4f6e-aa91-583f1cbbff0b))
-    (instances
-      (project "password_manager"
-        (path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
-          (reference "SW1_4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push_45deg") (at 103.505 86.36 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c32ec9ca-a347-492d-9be7-216d4fcd2051)
-    (property "Reference" "SW1_2" (at 106.68 85.09 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SW_2" (at 106.68 87.63 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (at 103.505 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 103.505 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c3575fb7-ae3d-4bd1-a0d9-2a0a6bebff03))
-    (pin "2" (uuid d0f505d1-5e14-46ee-8970-19fa14936b90))
-    (instances
-      (project "password_manager"
-        (path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
-          (reference "SW1_2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push_45deg") (at 118.11 118.745 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cc5eeb9d-ef68-4666-b106-c401119c4ba8)
-    (property "Reference" "SW4_3" (at 121.92 117.475 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SW_1" (at 121.92 120.015 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (at 118.11 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 118.11 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1710e961-2c9e-4323-b209-3de582289dfc))
-    (pin "2" (uuid 18052803-cd70-43c2-b2b9-be582326316a))
-    (instances
-      (project "password_manager"
-        (path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
-          (reference "SW4_3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push_45deg") (at 118.745 106.68 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d661d2c8-5fe3-4c00-8d37-86108cdab254)
-    (property "Reference" "SW3_3" (at 121.92 105.41 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SW_1" (at 121.92 107.95 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (at 118.745 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 118.745 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4b984102-3c6d-4fc3-89bb-0eaa69125221))
-    (pin "2" (uuid 59cca992-5cfb-44df-a889-e0eb3ffc03a2))
-    (instances
-      (project "password_manager"
-        (path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
-          (reference "SW3_3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push_45deg") (at 134.62 95.25 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid dc2363b5-e671-458b-8dea-26fdc3d1ada0)
-    (property "Reference" "SW2_4" (at 137.795 93.98 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SW_1" (at 137.795 96.52 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (at 134.62 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 134.62 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c5c3ee34-c62f-4d07-9d97-4d7e8f8b25da))
-    (pin "2" (uuid 156c9cf2-7f15-41fd-8c21-001ef8eee3cd))
-    (instances
-      (project "password_manager"
-        (path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
-          (reference "SW2_4") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4e5af547-d910-4cf3-afa4-7baa9375f6e3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Switch:SW_Push_45deg"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push_45deg"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_45deg_0_1"
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 86.995 95.885 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0100cc77-1d58-406b-b066-fe99c8ba5c08")
+		(property "Reference" "SW2_1"
+			(at 90.17 94.615 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_1"
+			(at 90.17 97.155 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 86.995 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.995 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.995 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6ba48c4-556c-4cc0-97c3-6e506280e2f7")
+		)
+		(pin "2"
+			(uuid "e0da25a6-5664-4328-b2c4-f41254a0eea4")
+		)
+		(instances
+			(project "password_manager"
+				(path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
+					(reference "SW2_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 103.505 95.885 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "052bb334-1b17-4da3-81cf-7a537260e884")
+		(property "Reference" "SW2_2"
+			(at 106.68 94.615 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_1"
+			(at 106.68 97.155 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 103.505 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 103.505 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 103.505 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad7371a5-7a68-4c7e-9252-cc96d1032819")
+		)
+		(pin "2"
+			(uuid "4fdda569-f0bb-4564-ad42-534e3d1b7697")
+		)
+		(instances
+			(project "password_manager"
+				(path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
+					(reference "SW2_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 86.995 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e0048a0-748e-4d45-a01b-fba960913908")
+		(property "Reference" "SW3_1"
+			(at 90.17 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_1"
+			(at 90.17 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 86.995 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.995 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.995 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "234ac89e-5f33-41ce-91d6-09ba0d2f20e2")
+		)
+		(pin "2"
+			(uuid "c10c2be3-96f5-4efe-9e8b-abf7530c46ec")
+		)
+		(instances
+			(project "password_manager"
+				(path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
+					(reference "SW3_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 134.62 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10a1aa0f-5b3b-4f7b-978c-4f8733f47482")
+		(property "Reference" "SW4_4"
+			(at 138.43 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_1"
+			(at 138.43 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 134.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7f3b77d-f969-4420-9fff-023eb98dfd9c")
+		)
+		(pin "2"
+			(uuid "0e35749d-e0a7-49c8-895c-be81e949c04d")
+		)
+		(instances
+			(project "password_manager"
+				(path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
+					(reference "SW4_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 102.87 107.315 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17ddd2e6-63c1-4c9e-a780-b9a1ad6ccf50")
+		(property "Reference" "SW3_2"
+			(at 106.045 106.045 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_1"
+			(at 106.045 108.585 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 102.87 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "806f5fa7-374c-494d-9929-4b8fab0877d3")
+		)
+		(pin "2"
+			(uuid "aa631d55-da2d-4d48-94fd-5a653891d6b9")
+		)
+		(instances
+			(project "password_manager"
+				(path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
+					(reference "SW3_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 118.11 95.885 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24cd1964-60a2-4388-8c64-c252f177748f")
+		(property "Reference" "SW2_3"
+			(at 121.285 94.615 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_1"
+			(at 121.285 97.155 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 118.11 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02e31a92-dbc0-4d50-a7b8-f07aeb3c5a80")
+		)
+		(pin "2"
+			(uuid "651b72ef-4132-4133-90a2-c9cf9d92ab52")
+		)
+		(instances
+			(project "password_manager"
+				(path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
+					(reference "SW2_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 135.255 106.045 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ae4572c-b27c-4ab4-84b3-9b7eb825cc3c")
+		(property "Reference" "SW3_4"
+			(at 138.43 104.775 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_1"
+			(at 138.43 107.315 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 135.255 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.255 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.255 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53afc0a2-59b6-4e88-8c44-7d8db1e3c8a5")
+		)
+		(pin "2"
+			(uuid "6732ecc5-cc02-409b-ac8e-44e1123963ee")
+		)
+		(instances
+			(project "password_manager"
+				(path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
+					(reference "SW3_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 86.36 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "612b749c-d689-43bc-b89a-3ad673cdbbb1")
+		(property "Reference" "SW4_1"
+			(at 90.17 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_1"
+			(at 90.17 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb778517-260c-4228-8d47-ff05924987e5")
+		)
+		(pin "2"
+			(uuid "b8de5d5f-2802-42bb-8ad7-b61c27446176")
+		)
+		(instances
+			(project "password_manager"
+				(path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
+					(reference "SW4_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 87.63 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63fa0750-8989-487e-a9e6-15462eb0bafe")
+		(property "Reference" "SW1_1"
+			(at 91.44 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_1"
+			(at 91.44 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 87.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f2cd2ad-48f6-4bc1-afa0-f253fe167096")
+		)
+		(pin "2"
+			(uuid "f508d588-6d0c-4f13-bcb0-56831e1b4605")
+		)
+		(instances
+			(project "password_manager"
+				(path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
+					(reference "SW1_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 118.745 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c22e4ba-19cd-4cc6-b9fe-c6c6b74d9a3b")
+		(property "Reference" "SW1_3"
+			(at 121.92 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_3"
+			(at 121.92 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 118.745 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.745 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.745 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "858c31a2-dbc5-42fe-a560-586cf5f519e6")
+		)
+		(pin "2"
+			(uuid "461cd838-2155-4c4b-90a5-ba60460e45d2")
+		)
+		(instances
+			(project "password_manager"
+				(path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
+					(reference "SW1_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 102.235 118.745 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73ef9242-3409-4737-b1cd-cf58c63f5a67")
+		(property "Reference" "SW4_2"
+			(at 106.045 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_1"
+			(at 106.045 120.015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 102.235 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.235 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.235 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e056114-7c74-4693-9324-6d67448bbe88")
+		)
+		(pin "2"
+			(uuid "36a40152-9c76-40b2-b230-405737ff30ab")
+		)
+		(instances
+			(project "password_manager"
+				(path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
+					(reference "SW4_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 135.255 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a49f721f-84d4-4499-88d9-91caacc0a820")
+		(property "Reference" "SW1_4"
+			(at 138.43 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_4"
+			(at 138.43 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 135.255 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.255 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.255 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c1f5b74-ddd0-45ad-939a-42b056015bd0")
+		)
+		(pin "2"
+			(uuid "327e44da-24af-4f6e-aa91-583f1cbbff0b")
+		)
+		(instances
+			(project "password_manager"
+				(path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
+					(reference "SW1_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 103.505 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c32ec9ca-a347-492d-9be7-216d4fcd2051")
+		(property "Reference" "SW1_2"
+			(at 106.68 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_2"
+			(at 106.68 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 103.505 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 103.505 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 103.505 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3575fb7-ae3d-4bd1-a0d9-2a0a6bebff03")
+		)
+		(pin "2"
+			(uuid "d0f505d1-5e14-46ee-8970-19fa14936b90")
+		)
+		(instances
+			(project "password_manager"
+				(path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
+					(reference "SW1_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 118.11 118.745 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc5eeb9d-ef68-4666-b106-c401119c4ba8")
+		(property "Reference" "SW4_3"
+			(at 121.92 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_1"
+			(at 121.92 120.015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 118.11 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1710e961-2c9e-4323-b209-3de582289dfc")
+		)
+		(pin "2"
+			(uuid "18052803-cd70-43c2-b2b9-be582326316a")
+		)
+		(instances
+			(project "password_manager"
+				(path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
+					(reference "SW4_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 118.745 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d661d2c8-5fe3-4c00-8d37-86108cdab254")
+		(property "Reference" "SW3_3"
+			(at 121.92 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_1"
+			(at 121.92 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 118.745 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.745 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.745 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b984102-3c6d-4fc3-89bb-0eaa69125221")
+		)
+		(pin "2"
+			(uuid "59cca992-5cfb-44df-a889-e0eb3ffc03a2")
+		)
+		(instances
+			(project "password_manager"
+				(path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
+					(reference "SW3_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 134.62 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc2363b5-e671-458b-8dea-26fdc3d1ada0")
+		(property "Reference" "SW2_4"
+			(at 137.795 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_1"
+			(at 137.795 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5c3ee34-c62f-4d07-9d97-4d7e8f8b25da")
+		)
+		(pin "2"
+			(uuid "156c9cf2-7f15-41fd-8c21-001ef8eee3cd")
+		)
+		(instances
+			(project "password_manager"
+				(path "/c60f1c42-9579-4917-bb90-9d2f0e5f1bce/642cf3cc-44d0-426f-b9e5-070ac79b8d4a"
+					(reference "SW2_4")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
